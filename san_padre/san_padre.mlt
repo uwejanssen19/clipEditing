@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.17.0" title="Shotcut version 19.09.14" producer="main_bin">
+  <profile description="automatic" width="2688" height="1512" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="2688" display_aspect_den="1512" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:19.920">
+    <property name="length">499</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/start_horst.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:28:30</property>
+    <property name="shotcut:hash">a8055d7274e2ce854b77d227f444234f</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:05:09.600">
+    <property name="length">7741</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/start_lutz.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:58:15</property>
+    <property name="shotcut:hash">e7c09a3fd300421f0b80915c190feb97</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.360">
+    <property name="length">2835</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/startplatz_san_padre.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:17:22</property>
+    <property name="shotcut:hash">b6e6c3ea18ad2cce9dd2c2a03a7d6dd3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:19.920"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:05:09.600"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:01:53.360"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:50.360">
+    <property name="length">2760</property>
+    <property name="eof">pause</property>
+    <property name="resource">//0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:50.360"/>
+  </playlist>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.360">
+    <property name="length">2835</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/startplatz_san_padre.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:17:22</property>
+    <property name="shotcut:hash">b6e6c3ea18ad2cce9dd2c2a03a7d6dd3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">startplatz_san_padre.MP4</property>
+    <filter id="filter0" out="00:00:13.920">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter1" out="00:00:13.920">
+      <property name="argument">San Padre/Bortigali
+19. 9.2020</property>
+      <property name="geometry">-5 1294 2688 212 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1512</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.360">
+    <property name="length">2835</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/startplatz_san_padre.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:17:22</property>
+    <property name="shotcut:hash">b6e6c3ea18ad2cce9dd2c2a03a7d6dd3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">startplatz_san_padre.MP4</property>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.360">
+    <property name="length">2835</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/startplatz_san_padre.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:17:22</property>
+    <property name="shotcut:hash">b6e6c3ea18ad2cce9dd2c2a03a7d6dd3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">startplatz_san_padre.MP4</property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:03.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:17.360" out="00:00:20.560"/>
+    <track producer="producer5" in="00:00:48.600" out="00:00:51.800"/>
+    <transition id="transition0" out="00:00:03.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:03.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.360">
+    <property name="length">2835</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/startplatz_san_padre.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:17:22</property>
+    <property name="shotcut:hash">b6e6c3ea18ad2cce9dd2c2a03a7d6dd3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">startplatz_san_padre.MP4</property>
+  </producer>
+  <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.960">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:01:17.000" out="00:01:19.960"/>
+    <track producer="producer6" in="00:01:42.200" out="00:01:45.160"/>
+    <transition id="transition2" out="00:00:02.960">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition3" out="00:00:02.960">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:19.920">
+    <property name="length">499</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/start_horst.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:28:30</property>
+    <property name="shotcut:hash">a8055d7274e2ce854b77d227f444234f</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">start_horst.MP4</property>
+  </producer>
+  <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.640">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:01:47.680" out="00:01:49.320"/>
+    <track producer="producer7" in="00:00:04.040" out="00:00:05.680"/>
+    <transition id="transition4" out="00:00:01.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition5" out="00:00:01.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:05:09.600">
+    <property name="length">7741</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Volumes/TOSHIBA EXT/video/para/sardinien_2020/19092020_san_padre/start_lutz.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-19T00:58:15</property>
+    <property name="shotcut:hash">e7c09a3fd300421f0b80915c190feb97</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">start_lutz.MP4</property>
+    <filter id="filter2" in="00:03:06.920" out="00:03:52.920">
+      <property name="start">1</property>
+      <property name="level">00:00:44.880=1;00:00:46.000=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.160</property>
+    </filter>
+  </producer>
+  <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.760">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:00:17.160" out="00:00:19.920"/>
+    <track producer="producer8" in="00:03:06.920" out="00:03:09.680"/>
+    <transition id="transition6" out="00:00:02.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition7" out="00:00:02.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:13.920"/>
+    <entry producer="producer4" in="00:00:13.960" out="00:00:17.320"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:03.200"/>
+    <entry producer="producer5" in="00:00:51.840" out="00:01:16.960"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:02.960"/>
+    <entry producer="producer6" in="00:01:45.200" out="00:01:47.640"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:01.640"/>
+    <entry producer="producer7" in="00:00:05.720" out="00:00:17.120"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:02.760"/>
+    <entry producer="producer8" in="00:03:09.720" out="00:03:52.920"/>
+  </playlist>
+  <tractor id="tractor4" title="Shotcut version 19.09.14" global_feed="1" in="00:00:00.000" out="00:01:50.360">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">0.383775</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
