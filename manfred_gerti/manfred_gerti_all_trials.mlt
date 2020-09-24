@@ -70,8 +70,8 @@
     <entry producer="producer2" in="00:00:00.000" out="00:00:26.320"/>
     <entry producer="producer3" in="00:00:00.000" out="00:00:19.160"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:00:42.160">
-    <property name="length">00:00:42.200</property>
+  <producer id="black" in="00:00:00.000" out="00:00:54.600">
+    <property name="length">00:00:54.640</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -80,7 +80,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:00:42.160"/>
+    <entry producer="black" in="00:00:00.000" out="00:00:54.600"/>
   </playlist>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
@@ -104,16 +104,114 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter0" in="00:00:58.360" out="00:01:26.880">
-      <property name="start">1</property>
-      <property name="level">00:00:00.000=0;00:00:01.000=1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">1</property>
-      <property name="shotcut:animIn">00:00:01.040</property>
-    </filter>
   </producer>
-  <producer id="producer10" in="00:00:00.000" out="00:00:19.160">
+  <producer id="producer5" in="00:00:00.000" out="00:00:03.280">
+    <property name="length">00:00:03.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/gerti_1709_1.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T10:51:51</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2603cc8d5a4a2b435b1caa6b488303b0</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">gerti_1709_1.MP4</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:01:26.520" out="00:01:26.880"/>
+    <track producer="producer5" in="00:00:00.000" out="00:00:00.360"/>
+    <transition id="transition0" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" in="00:00:00.000" out="00:00:28.440">
+    <property name="length">00:00:28.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/gerti_1709_2.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T10:52:47</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">1af33d3bda9aebd3799843c1b6a095a9</property>
+    <property name="shotcut:caption">gerti_1709_2.MP4</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.640">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:02.640" out="00:00:03.280"/>
+    <track producer="producer6" in="00:00:19.160" out="00:00:19.800"/>
+    <transition id="transition2" out="00:00:00.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" in="00:00:00.000" out="00:00:26.320">
+    <property name="length">00:00:26.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/gerti_1709_3.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T10:54:13</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0f16d0180bb73b978ee91a447d6884e5</property>
+    <property name="shotcut:caption">gerti_1709_3.MP4</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.880">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:00:23.880" out="00:00:24.760"/>
+    <track producer="producer7" in="00:00:18.080" out="00:00:18.960"/>
+    <transition id="transition4" out="00:00:00.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" in="00:00:00.000" out="00:00:19.160">
     <property name="length">00:00:19.200</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/gerti_1709_4_ok.MP4</property>
@@ -128,7 +226,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">c82a2487d7fba6868e795b38fbd57585</property>
     <property name="shotcut:caption">gerti_1709_4_ok.MP4</property>
-    <filter id="filter1" in="00:00:03.000" out="00:00:19.160">
+    <filter id="filter0" in="00:00:03.000" out="00:00:19.160">
       <property name="start">1</property>
       <property name="level">00:00:15.160=1;00:00:16.160=0</property>
       <property name="mlt_service">brightness</property>
@@ -137,18 +235,18 @@
       <property name="shotcut:animOut">00:00:01.040</property>
     </filter>
   </producer>
-  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:01.200">
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:01.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer4" in="00:01:25.280" out="00:01:26.480"/>
-    <track producer="producer10" in="00:00:03.920" out="00:00:05.120"/>
-    <transition id="transition0" out="00:00:01.200">
+    <track producer="producer7" in="00:00:21.920" out="00:00:23.120"/>
+    <track producer="producer8" in="00:00:03.920" out="00:00:05.120"/>
+    <transition id="transition6" out="00:00:01.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition1" out="00:00:01.200">
+    <transition id="transition7" out="00:00:01.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="start">-1</property>
@@ -159,11 +257,17 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V2</property>
-    <entry producer="producer4" in="00:00:58.360" out="00:01:25.240"/>
-    <entry producer="tractor0" in="00:00:00.000" out="00:00:01.200"/>
-    <entry producer="producer10" in="00:00:05.160" out="00:00:19.160"/>
+    <entry producer="producer4" in="00:00:58.360" out="00:01:26.480"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer5" in="00:00:00.400" out="00:00:02.600"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.640"/>
+    <entry producer="producer6" in="00:00:19.840" out="00:00:23.840"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.880"/>
+    <entry producer="producer7" in="00:00:19.000" out="00:00:21.880"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:01.200"/>
+    <entry producer="producer8" in="00:00:05.160" out="00:00:19.160"/>
   </playlist>
-  <tractor id="tractor4" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:00:42.160">
+  <tractor id="tractor4" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:00:54.600">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
