@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.09.13" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:00:50.200">
+    <property name="length">00:00:50.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/babs_1709.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T09:53:46</property>
+    <property name="shotcut:hash">b142eac64654a2aeef6e8582e556a0df</property>
+    <property name="ignore_points">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">babs_1709.MP4</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:50.200"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:47.400">
+    <property name="length">00:00:47.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:47.400"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="00:00:50.200">
+    <property name="length">00:00:50.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/babs_1709.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T09:53:46</property>
+    <property name="shotcut:hash">b142eac64654a2aeef6e8582e556a0df</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">babs_1709.MP4</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:04:08.040">
+    <property name="length">00:04:08.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.2025:T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/babs_1709.MP4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.2025</property>
+    <property name="warp_resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/babs_1709.MP4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">b142eac64654a2aeef6e8582e556a0df</property>
+    <property name="shotcut:caption">babs_1709.MP4 (0.2025x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:00:50.200">
+    <property name="length">00:00:50.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/babs_1709.MP4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">b142eac64654a2aeef6e8582e556a0df</property>
+    <property name="shotcut:caption">babs_1709.MP4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer1" in="00:00:32.280" out="00:00:36.840"/>
+    <entry producer="producer2" in="00:03:02.120" out="00:03:39.040"/>
+    <entry producer="producer3" in="00:00:44.360" out="00:00:50.200"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:00:47.400">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>

@@ -82,11 +82,6 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:00:42.160"/>
   </playlist>
-  <playlist id="playlist0">
-    <property name="shotcut:video">1</property>
-    <property name="shotcut:name">V1</property>
-    <blank length="00:00:00.040"/>
-  </playlist>
   <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:01:26.880">
     <property name="length">00:01:26:23</property>
     <property name="eof">pause</property>
@@ -104,13 +99,80 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter0" in="00:00:58.360" out="00:01:26.880">
+    <filter id="filter0" in="00:00:58.360" out="00:01:22.480">
       <property name="start">1</property>
-      <property name="level">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="level">00:00:00.000=0;00:00:00.360=1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeInBrightness</property>
       <property name="alpha">1</property>
-      <property name="shotcut:animIn">00:00:01.040</property>
+      <property name="shotcut:animIn">00:00:00.400</property>
+    </filter>
+    <filter id="filter1" in="00:00:58.360" out="00:01:22.480">
+      <property name="argument">Manfred</property>
+      <property name="geometry">380 1374 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1512</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter2" in="00:00:58.360" out="00:01:22.480">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.360=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">10</property>
+    </filter>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:26.880">
+    <property name="length">00:01:26:23</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/17092020_littigheddu_long_1h/manfred_1709.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-06-01T10:14:57</property>
+    <property name="shotcut:hash">14269bb6097f44b5184384790f541081</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">manfred_1709.MP4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" in="00:01:22.520" out="00:01:26.480">
+      <property name="argument">Manfred</property>
+      <property name="geometry">380 1374 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1512</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
     </filter>
   </producer>
   <producer id="producer10" in="00:00:00.000" out="00:00:19.160">
@@ -128,7 +190,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">c82a2487d7fba6868e795b38fbd57585</property>
     <property name="shotcut:caption">gerti_1709_4_ok.MP4</property>
-    <filter id="filter1" in="00:00:03.000" out="00:00:19.160">
+    <filter id="filter4" in="00:00:03.000" out="00:00:19.160">
       <property name="start">1</property>
       <property name="level">00:00:15.160=1;00:00:16.160=0</property>
       <property name="mlt_service">brightness</property>
@@ -136,10 +198,30 @@
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.040</property>
     </filter>
+    <filter id="filter5" in="00:00:03.920" out="00:00:19.160">
+      <property name="argument">Gerti</property>
+      <property name="geometry">44 1375 2607 128 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1512</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
   <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:01.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer4" in="00:01:25.280" out="00:01:26.480"/>
+    <track producer="producer5" in="00:01:25.280" out="00:01:26.480"/>
     <track producer="producer10" in="00:00:03.920" out="00:00:05.120"/>
     <transition id="transition0" out="00:00:01.200">
       <property name="a_track">0</property>
@@ -151,15 +233,16 @@
     <transition id="transition1" out="00:00:01.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
-    <property name="shotcut:name">V2</property>
-    <entry producer="producer4" in="00:00:58.360" out="00:01:25.240"/>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer4" in="00:00:58.360" out="00:01:22.480"/>
+    <entry producer="producer5" in="00:01:22.520" out="00:01:25.240"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:01.200"/>
     <entry producer="producer10" in="00:00:05.160" out="00:00:19.160"/>
   </playlist>
@@ -168,36 +251,22 @@
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <property name="shotcut:scaleFactor">1.53256</property>
+    <property name="shotcut:trackHeight">30</property>
     <track producer="background"/>
-    <track producer="playlist0"/>
     <track producer="playlist1"/>
-    <transition id="transition8">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
-    </transition>
-    <transition id="transition9">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="version">0.9</property>
-      <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="disable">1</property>
-    </transition>
     <transition id="transition10">
       <property name="a_track">0</property>
-      <property name="b_track">2</property>
+      <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition11">
       <property name="a_track">1</property>
-      <property name="b_track">2</property>
+      <property name="b_track">1</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="disable">0</property>
+      <property name="disable">1</property>
     </transition>
   </tractor>
 </mlt>
