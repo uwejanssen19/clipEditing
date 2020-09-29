@@ -673,7 +673,7 @@
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">9.18159</property>
+    <property name="shotcut:scaleFactor">0.167672</property>
     <property name="shotcut:trackHeight">50</property>
     <track producer="background"/>
     <track producer="playlist0"/>
