@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.09.13" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:25:00.440">
+    <property name="length">00:25:00.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-2.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:42:25</property>
+    <property name="shotcut:hash">ca9a9bd2fb0faac34a4f5c005bc686f2</property>
+    <property name="ignore_points">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">VIRB0068-2.MP4</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:25:00.440">
+    <property name="length">00:25:00.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-3.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:07:25</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6063e93370ce431c43d4e174b99ff004</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+  </producer>
+  <playlist id="main_bin" title="Shotcut version 20.09.13">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:25:00.480"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:25:00.440"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:25:00.440"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:08:49.280"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:37.880">
+    <property name="length">00:06:37.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:37.880"/>
+  </playlist>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:00.040"/>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <producer id="producer4" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+    <filter id="filter0" in="00:14:43.720" out="00:14:59.320">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.040</property>
+    </filter>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+    <filter id="filter1" in="00:16:12.960" out="00:17:29.520">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:14.960=0;00:01:16.560=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.640</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:05.680">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:16:07.240" out="00:16:12.920"/>
+    <track producer="producer7" in="00:16:12.960" out="00:16:18.640"/>
+    <transition id="transition0" out="00:00:05.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:05.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+    <filter id="filter2" in="00:17:29.560" out="00:17:37.160">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">muteVolume</property>
+      <property name="gain">0</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+    <filter id="filter3" in="00:17:37.200" out="00:17:44.480">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:01.040=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:01.080</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:02.920">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer9" in="00:17:41.560" out="00:17:44.480"/>
+    <track producer="producer10" in="00:20:03.520" out="00:20:06.440"/>
+    <transition id="transition2" out="00:00:02.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:02.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer11" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:04.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:20:10.480" out="00:20:14.600"/>
+    <track producer="producer11" in="00:20:15.120" out="00:20:19.240"/>
+    <transition id="transition4" out="00:00:04.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:04.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:03.080">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer11" in="00:20:24.080" out="00:20:27.160"/>
+    <track producer="producer12" in="00:22:29.960" out="00:22:33.040"/>
+    <transition id="transition6" out="00:00:03.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:03.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer13" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.680">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer12" in="00:23:22.840" out="00:23:23.520"/>
+    <track producer="producer13" in="00:23:23.560" out="00:23:24.240"/>
+    <transition id="transition8" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer14" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:02.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer13" in="00:23:25.480" out="00:23:27.480"/>
+    <track producer="producer14" in="00:23:54.920" out="00:23:56.920"/>
+    <transition id="transition10" out="00:00:02.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:02.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer15" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+    <filter id="filter4" in="00:24:34.240" out="00:24:44.920">
+      <property name="argument">Barbara</property>
+      <property name="geometry">2 954 1918 126 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#00ff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:00:05.320">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer14" in="00:24:28.880" out="00:24:34.200"/>
+    <track producer="producer15" in="00:24:34.240" out="00:24:39.560"/>
+    <transition id="transition12" out="00:00:05.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition13" out="00:00:05.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer16" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T18:17:24</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">652594251f71607c6b2e7aca8524969c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0068.MP4</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+    <property name="shotcut:caption">VIRB0068-4.MP4</property>
+  </producer>
+  <tractor id="tractor7" global_feed="1" in="00:00:00.000" out="00:00:05.320">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer16" in="00:24:55.160" out="00:25:00.480"/>
+    <track producer="producer17" in="00:00:00.000" out="00:00:05.320"/>
+    <transition id="transition14" out="00:00:05.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition15" out="00:00:05.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer18" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+    <property name="shotcut:caption">VIRB0068-4.MP4</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+    <property name="shotcut:caption">VIRB0068-4.MP4</property>
+  </producer>
+  <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:05.160">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer18" in="00:01:10.440" out="00:01:15.600"/>
+    <track producer="producer19" in="00:06:28.720" out="00:06:33.880"/>
+    <transition id="transition16" out="00:00:05.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition17" out="00:00:05.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer20" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+    <property name="shotcut:caption">VIRB0068-4.MP4</property>
+    <filter id="filter5" in="00:07:26.720" out="00:07:57.320">
+      <property name="start">1</property>
+      <property name="level">00:00:29.600=1;00:00:30.600=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.040</property>
+    </filter>
+    <filter id="filter6" in="00:07:26.720" out="00:07:57.320">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:29.640=0;00:00:30.600=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+      <property name="alpha">00:00:29.640=1;00:00:30.600=0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor9" global_feed="1" in="00:00:00.000" out="00:00:07.040">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer19" in="00:06:38.000" out="00:06:45.040"/>
+    <track producer="producer20" in="00:07:26.720" out="00:07:33.760"/>
+    <transition id="transition18" out="00:00:07.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource"></property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition19" out="00:00:07.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer4" in="00:14:43.720" out="00:14:59.320"/>
+    <entry producer="producer5" in="00:14:59.360" out="00:15:14.000"/>
+    <entry producer="producer6" in="00:15:14.040" out="00:16:07.200"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:05.680"/>
+    <entry producer="producer7" in="00:16:18.680" out="00:17:29.520"/>
+    <entry producer="producer8" in="00:17:29.560" out="00:17:37.160"/>
+    <entry producer="producer9" in="00:17:37.200" out="00:17:41.520"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:02.920"/>
+    <entry producer="producer10" in="00:20:06.480" out="00:20:10.440"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:04.120"/>
+    <entry producer="producer11" in="00:20:19.280" out="00:20:24.040"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:03.080"/>
+    <entry producer="producer12" in="00:22:33.080" out="00:23:22.800"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.680"/>
+    <entry producer="producer13" in="00:23:24.280" out="00:23:25.440"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:02.000"/>
+    <entry producer="producer14" in="00:23:56.960" out="00:24:28.840"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:05.320"/>
+    <entry producer="producer15" in="00:24:39.600" out="00:24:44.920"/>
+    <entry producer="producer16" in="00:24:44.960" out="00:24:55.120"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:05.320"/>
+    <entry producer="producer17" in="00:00:05.360" out="00:00:50.040"/>
+    <entry producer="producer18" in="00:01:00.240" out="00:01:10.400"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:05.160"/>
+    <entry producer="producer19" in="00:06:33.920" out="00:06:37.960"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:07.040"/>
+    <entry producer="producer20" in="00:07:33.800" out="00:07:57.320"/>
+  </playlist>
+  <tractor id="tractor10" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:06:37.880">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">9.18159</property>
+    <property name="shotcut:trackHeight">50</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition20">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition21">
+      <property name="a_track">2</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition22">
+      <property name="a_track">1</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+    </transition>
+    <transition id="transition23">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
