@@ -74,8 +74,8 @@
     <entry producer="producer2" in="00:00:00.000" out="00:25:00.440"/>
     <entry producer="producer3" in="00:00:00.000" out="00:08:49.280"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:06:37.880">
-    <property name="length">00:06:37.920</property>
+  <producer id="black" in="00:00:00.000" out="00:06:28.520">
+    <property name="length">00:06:28.560</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -84,12 +84,11 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:06:37.880"/>
+    <entry producer="black" in="00:00:00.000" out="00:06:28.520"/>
   </playlist>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <blank length="00:00:00.040"/>
     <blank length="00:00:00.040"/>
   </playlist>
   <producer id="producer4" in="00:00:00.000" out="00:25:00.480">
@@ -563,26 +562,27 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
     <property name="shotcut:caption">VIRB0068-4.MP4</property>
+    <filter id="filter5" in="00:01:05.760" out="00:01:15.600">
+      <property name="argument">Nach 1,5 Stunden ...</property>
+      <property name="geometry">-10 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#828aff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
-  <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:05.160">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer18" in="00:01:10.440" out="00:01:15.600"/>
-    <track producer="producer19" in="00:06:28.720" out="00:06:33.880"/>
-    <transition id="transition16" out="00:00:05.160">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition17" out="00:00:05.160">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">0</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
   <producer id="producer20" in="00:00:00.000" out="00:08:49.280">
     <property name="length">00:08:49.320</property>
     <property name="eof">pause</property>
@@ -598,28 +598,62 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
     <property name="shotcut:caption">VIRB0068-4.MP4</property>
-    <filter id="filter5" in="00:07:26.720" out="00:07:57.320">
+  </producer>
+  <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:05.160">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer19" in="00:01:10.440" out="00:01:15.600"/>
+    <track producer="producer20" in="00:06:28.720" out="00:06:33.880"/>
+    <transition id="transition16" out="00:00:05.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition17" out="00:00:05.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer21" in="00:00:00.000" out="00:08:49.280">
+    <property name="length">00:08:49.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/07092020_littigheddu_long_1_30/VIRB0068-4.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-07T19:32:26</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8e5ea518099c47ad55ac327a42b8ecd7</property>
+    <property name="shotcut:caption">VIRB0068-4.MP4</property>
+    <filter id="filter6" in="00:07:26.720" out="00:07:47.960">
       <property name="start">1</property>
-      <property name="level">00:00:29.600=1;00:00:30.600=0</property>
+      <property name="level">00:00:20.240=1;00:00:21.240=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.040</property>
     </filter>
-    <filter id="filter6" in="00:07:26.720" out="00:07:57.320">
+    <filter id="filter7" in="00:07:26.720" out="00:07:47.960">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">00:00:29.640=0;00:00:30.600=-60</property>
+      <property name="level">00:00:20.280=0;00:00:21.240=-60</property>
       <property name="mlt_service">volume</property>
       <property name="shotcut:filter">fadeOutVolume</property>
       <property name="shotcut:animOut">00:00:01.000</property>
-      <property name="alpha">00:00:29.640=1;00:00:30.600=0</property>
     </filter>
   </producer>
   <tractor id="tractor9" global_feed="1" in="00:00:00.000" out="00:00:07.040">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer19" in="00:06:38.000" out="00:06:45.040"/>
-    <track producer="producer20" in="00:07:26.720" out="00:07:33.760"/>
+    <track producer="producer20" in="00:06:38.000" out="00:06:45.040"/>
+    <track producer="producer21" in="00:07:26.720" out="00:07:33.760"/>
     <transition id="transition18" out="00:00:07.040">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -663,13 +697,14 @@
     <entry producer="producer16" in="00:24:44.960" out="00:24:55.120"/>
     <entry producer="tractor7" in="00:00:00.000" out="00:00:05.320"/>
     <entry producer="producer17" in="00:00:05.360" out="00:00:50.040"/>
-    <entry producer="producer18" in="00:01:00.240" out="00:01:10.400"/>
+    <entry producer="producer18" in="00:01:00.240" out="00:01:05.720"/>
+    <entry producer="producer19" in="00:01:05.760" out="00:01:10.400"/>
     <entry producer="tractor8" in="00:00:00.000" out="00:00:05.160"/>
-    <entry producer="producer19" in="00:06:33.920" out="00:06:37.960"/>
+    <entry producer="producer20" in="00:06:33.920" out="00:06:37.960"/>
     <entry producer="tractor9" in="00:00:00.000" out="00:00:07.040"/>
-    <entry producer="producer20" in="00:07:33.800" out="00:07:57.320"/>
+    <entry producer="producer21" in="00:07:33.800" out="00:07:47.960"/>
   </playlist>
-  <tractor id="tractor10" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:06:37.880">
+  <tractor id="tractor10" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:06:28.520">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
@@ -686,7 +721,7 @@
       <property name="sum">1</property>
     </transition>
     <transition id="transition21">
-      <property name="a_track">2</property>
+      <property name="a_track">1</property>
       <property name="b_track">2</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
@@ -697,6 +732,7 @@
       <property name="b_track">1</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
     </transition>
     <transition id="transition23">
       <property name="a_track">0</property>
