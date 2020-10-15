@@ -182,7 +182,23 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Janina_Thomas_0610.MP4</property>
   </producer>
-  <producer id="producer11" in="00:00:00.000" out="00:25:00.480">
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">pics/20201005_103144.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-10-12T12:44:56</property>
+    <property name="shotcut:caption">20201005_103144.jpg</property>
+    <property name="shotcut:hash">4daf416cbf8fd2104a0c4911ffc87ecc</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="00:25:00.480">
     <property name="length">00:25:00.520</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_1.MP4</property>
@@ -197,7 +213,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer12" in="00:00:00.000" out="00:22:03.400">
+  <producer id="producer13" in="00:00:00.000" out="00:22:03.400">
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
@@ -214,7 +230,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
   </producer>
-  <producer id="producer13" in="00:00:00.000" out="00:00:37.200">
+  <producer id="producer14" in="00:00:00.000" out="00:00:37.200">
     <property name="length">00:00:37.240</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Alois0610_1.MP4</property>
@@ -231,7 +247,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Alois0610_1.MP4</property>
   </producer>
-  <producer id="producer14" in="00:00:00.000" out="00:03:56.280">
+  <producer id="producer15" in="00:00:00.000" out="00:03:56.280">
     <property name="length">00:03:56.320</property>
     <property name="eof">pause</property>
     <property name="resource">P:/dokumente/uwe/persoenlich/My Music/abspielbar/mp3/POP/Crosby, Stills, Nash &amp; Young - Woodstock.mp3</property>
@@ -248,7 +264,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Crosby, Stills, Nash &amp; Young - Woodstock.mp3</property>
   </producer>
-  <producer id="producer15" in="00:00:00.000" out="00:00:27.960">
+  <producer id="producer16" in="00:00:00.000" out="00:00:27.960">
     <property name="length">00:00:28.000</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Babs0610_Ldg.MP4</property>
@@ -263,7 +279,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer16" in="00:00:00.000" out="00:00:31.720">
+  <producer id="producer17" in="00:00:00.000" out="00:00:31.720">
     <property name="length">00:00:31.760</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Franz_und_Alois_0610.MP4</property>
@@ -278,7 +294,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer17" in="00:00:00.000" out="00:02:40.480">
+  <producer id="producer18" in="00:00:00.000" out="00:02:40.480">
     <property name="length">00:02:40.520</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/LdgBabs0610_vgl_perspktve.MP4</property>
@@ -295,7 +311,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">LdgBabs0610_vgl_perspktve.MP4</property>
   </producer>
-  <producer id="producer18" in="00:00:00.000" out="00:00:22.800">
+  <producer id="producer19" in="00:00:00.000" out="00:00:22.800">
     <property name="length">00:00:22.840</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Peter_0610_Ldg.MP4</property>
@@ -312,7 +328,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Peter_0610_Ldg.MP4</property>
   </producer>
-  <producer id="producer19" in="00:00:00.000" out="00:00:27.840">
+  <producer id="producer20" in="00:00:00.000" out="00:00:27.840">
     <property name="length">00:00:27.880</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0510/alois0510.MP4</property>
@@ -327,7 +343,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Alois.jpg</property>
@@ -341,7 +357,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Franz.jpg</property>
@@ -355,7 +371,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Gruppe.jpg</property>
@@ -369,7 +385,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Janina.jpg</property>
@@ -383,7 +399,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Peter.jpg</property>
@@ -397,7 +413,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Robert.jpg</property>
@@ -411,7 +427,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/start_babs_diecimo.jpg.jpg</property>
@@ -425,7 +441,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer28" in="00:00:00.000" out="00:00:03.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Thomas.jpg</property>
@@ -438,8 +454,10 @@
     <property name="shotcut:hash">58fe5f192ec0845e0f1e3048cd2ec00d</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <property name="shotcut:caption">Thomas.jpg</property>
+    <property name="ignore_points">1</property>
   </producer>
-  <producer id="producer28" in="00:00:00.000" out="00:04:19.400">
+  <producer id="producer29" in="00:00:00.000" out="00:04:19.400">
     <property name="length">00:04:19.440</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/uwe/Music/4K YouTube to MP3/Money For Nothing; drum cover by Sina.mp3</property>
@@ -456,7 +474,7 @@
     <property name="ignore_points">1</property>
     <property name="shotcut:caption">Money For Nothing; drum cover by Sina.mp3</property>
   </producer>
-  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/Uwe.jpg</property>
@@ -470,21 +488,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">G:/Bilder/Para/Piemont_2020/20201005_103144.jpg</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2020-10-12T12:44:56</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">4daf416cbf8fd2104a0c4911ffc87ecc</property>
-  </producer>
-  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer31" in="00:00:00.000" out="00:00:03.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">pics/menue.jpg</property>
@@ -496,7 +500,7 @@
     <property name="creation_time">2020-10-13T19:12:34</property>
     <property name="shotcut:caption">menue.jpg</property>
     <property name="shotcut:hash">3dcd44399d0add0c1c6760e03fc23803</property>
-    <property name="ignore_points">0</property>
+    <property name="ignore_points">1</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
@@ -515,16 +519,16 @@
     <entry producer="producer8" in="00:00:00.000" out="00:00:15.440"/>
     <entry producer="producer9" in="00:00:00.000" out="00:00:14.880"/>
     <entry producer="producer10" in="00:00:00.000" out="00:00:22.600"/>
-    <entry producer="producer11" in="00:00:00.000" out="00:25:00.480"/>
-    <entry producer="producer12" in="00:00:00.000" out="00:22:03.400"/>
-    <entry producer="producer13" in="00:00:00.000" out="00:00:37.200"/>
-    <entry producer="producer14" in="00:00:00.000" out="00:03:56.280"/>
-    <entry producer="producer15" in="00:00:00.000" out="00:00:27.960"/>
-    <entry producer="producer16" in="00:00:00.000" out="00:00:31.720"/>
-    <entry producer="producer17" in="00:00:00.000" out="00:02:40.480"/>
-    <entry producer="producer18" in="00:00:00.000" out="00:00:22.800"/>
-    <entry producer="producer19" in="00:00:00.000" out="00:00:27.840"/>
-    <entry producer="producer20" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:25:00.480"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:22:03.400"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:37.200"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:03:56.280"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:27.960"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:31.720"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:02:40.480"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:22.800"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:27.840"/>
     <entry producer="producer21" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer22" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer23" in="00:00:00.000" out="00:00:03.960"/>
@@ -532,8 +536,8 @@
     <entry producer="producer25" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer26" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer27" in="00:00:00.000" out="00:00:03.960"/>
-    <entry producer="producer28" in="00:00:00.000" out="00:04:19.400"/>
-    <entry producer="producer29" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:04:19.400"/>
     <entry producer="producer30" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer31" in="00:00:00.000" out="00:00:03.960"/>
   </playlist>
@@ -549,6 +553,45 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:08:34.320"/>
   </playlist>
+  <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">G:/Bilder/Para/Piemont_2020/20201005_103144.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-10-12T12:44:56</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4daf416cbf8fd2104a0c4911ffc87ecc</property>
+    <property name="shotcut:caption">20201005_103144.jpg</property>
+    <property name="ignore_points">0</property>
+    <filter id="filter1" out="00:00:01.960">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
+  </producer>
   <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
@@ -563,6 +606,29 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Gruppe.jpg</property>
+    <filter id="filter2" out="00:00:03.200">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -579,6 +645,29 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Janina.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter3" out="00:00:02.800">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -595,6 +684,29 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">start_babs_diecimo.jpg.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter4" in="00:00:00.240" out="00:00:02.960">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -611,6 +723,29 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Alois.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter5" out="00:00:02.960">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -627,6 +762,29 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Peter.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter6" out="00:00:03.000">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -643,6 +801,29 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Franz.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter7" out="00:00:03.040">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -659,6 +840,27 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Robert.jpg</property>
     <property name="ignore_points">0</property>
+    <filter id="filter8" out="00:00:02.960">
+      <property name="argument">Peter</property>
+      <property name="geometry">109 925 1683 133 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <producer id="producer39" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -692,22 +894,6 @@
     <property name="shotcut:caption">Uwe.jpg</property>
     <property name="ignore_points">0</property>
   </producer>
-  <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">G:/Bilder/Para/Piemont_2020/20201005_103144.jpg</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2020-10-12T12:44:56</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">4daf416cbf8fd2104a0c4911ffc87ecc</property>
-    <property name="shotcut:caption">20201005_103144.jpg</property>
-    <property name="ignore_points">0</property>
-  </producer>
   <producer id="producer42" in="00:00:00.000" out="00:00:28.560">
     <property name="length">00:00:28.600</property>
     <property name="eof">pause</property>
@@ -724,10 +910,33 @@
     <property name="xml">was here</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Peter0610_2.MP4</property>
+    <filter id="filter0" in="00:00:15.880" out="00:00:28.560">
+      <property name="argument">Flugwoche 4.10.2020 - 10.10.2020
+Teil1 Piemont
+ Startplätze Mt. Belice/ St. Elisabetta </property>
+      <property name="geometry">92 816 1700 242 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.440">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer41" in="00:00:02.000" out="00:00:02.440"/>
+    <track producer="producer40" in="00:00:02.000" out="00:00:02.440"/>
     <track producer="producer42" in="00:00:15.880" out="00:00:16.320"/>
     <transition id="transition0" out="00:00:00.440">
       <property name="a_track">0</property>
@@ -739,9 +948,9 @@
     <transition id="transition1" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer43" in="00:00:00.000" out="00:00:15.440">
@@ -759,6 +968,27 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">StartPeter0610_2.MP4</property>
+    <filter id="filter9" out="00:00:15.440">
+      <property name="argument">Peter</property>
+      <property name="geometry">109 925 1683 133 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:01.000">
     <property name="shotcut:transition">lumaMix</property>
@@ -795,6 +1025,26 @@
     <property name="xml">was here</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Janina_0610_2.MP4</property>
+    <filter id="filter10" out="00:00:14.400">
+      <property name="argument">Janina</property>
+      <property name="geometry">-9 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#aaff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
   <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:01.200">
     <property name="shotcut:transition">lumaMix</property>
@@ -867,6 +1117,27 @@
     <property name="xml">was here</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Alois0610_1.MP4</property>
+    <filter id="filter11" in="00:00:33.960" out="00:00:37.200">
+      <property name="argument">Alois</property>
+      <property name="geometry">109 925 1683 133 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.360">
     <property name="shotcut:transition">lumaMix</property>
@@ -902,6 +1173,26 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Janina_Thomas_0610.MP4</property>
+    <filter id="filter12" in="00:00:03.000" out="00:00:19.600">
+      <property name="argument">Janina/Thomas</property>
+      <property name="geometry">-9 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#aaff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
   <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:01.160">
     <property name="shotcut:transition">lumaMix</property>
@@ -937,6 +1228,26 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Uwe0610_1.MP4</property>
+    <filter id="filter13" in="00:00:26.480" out="00:01:07.000">
+      <property name="argument">Uwe</property>
+      <property name="geometry">-10 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#5500ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
   <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:00:00.800">
     <property name="shotcut:transition">lumaMix</property>
@@ -1113,6 +1424,27 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Uwe0610_1.MP4</property>
     <property name="shotcut:comment">Franz</property>
+    <filter id="filter15" in="00:02:32.680" out="00:02:38.440">
+      <property name="argument">Franz</property>
+      <property name="geometry">109 925 1683 133 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#2f566e</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <tractor id="tractor11" global_feed="1" in="00:00:00.000" out="00:00:01.040">
     <property name="shotcut:transition">lumaMix</property>
@@ -1266,9 +1598,9 @@
     <transition id="transition29" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer59" in="00:00:00.000" out="00:22:03.400">
@@ -1287,26 +1619,27 @@
     <property name="xml">was here</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+    <filter id="filter14" in="00:01:49.400" out="00:01:59.000">
+      <property name="argument">Barbara</property>
+      <property name="geometry">2 954 1918 126 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#00ff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
-  <tractor id="tractor15" global_feed="1" in="00:00:00.000" out="00:00:00.720">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer58" in="00:02:06.520" out="00:02:07.240"/>
-    <track producer="producer59" in="00:11:29.840" out="00:11:30.560"/>
-    <transition id="transition30" out="00:00:00.720">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition31" out="00:00:00.720">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
   <producer id="producer60" in="00:00:00.000" out="00:22:03.400">
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
@@ -1324,25 +1657,6 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
   </producer>
-  <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:00:00.440">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer59" in="00:11:39.200" out="00:11:39.640"/>
-    <track producer="producer60" in="00:11:39.680" out="00:11:40.120"/>
-    <transition id="transition32" out="00:00:00.440">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition33" out="00:00:00.440">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
   <producer id="producer61" in="00:00:00.000" out="00:22:03.400">
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
@@ -1360,18 +1674,18 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
   </producer>
-  <tractor id="tractor17" global_feed="1" in="00:00:00.000" out="00:00:00.760">
+  <tractor id="tractor15" global_feed="1" in="00:00:00.000" out="00:00:00.720">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer60" in="00:11:44.360" out="00:11:45.120"/>
-    <track producer="producer61" in="00:11:45.160" out="00:11:45.920"/>
-    <transition id="transition34" out="00:00:00.760">
+    <track producer="producer60" in="00:02:06.520" out="00:02:07.240"/>
+    <track producer="producer61" in="00:11:29.840" out="00:11:30.560"/>
+    <transition id="transition30" out="00:00:00.720">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition35" out="00:00:00.760">
+    <transition id="transition31" out="00:00:00.720">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1396,18 +1710,18 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
   </producer>
-  <tractor id="tractor18" global_feed="1" in="00:00:00.000" out="00:00:00.400">
+  <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:00:00.440">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer61" in="00:11:49.960" out="00:11:50.360"/>
-    <track producer="producer62" in="00:12:26.800" out="00:12:27.200"/>
-    <transition id="transition36" out="00:00:00.400">
+    <track producer="producer61" in="00:11:39.200" out="00:11:39.640"/>
+    <track producer="producer62" in="00:11:39.680" out="00:11:40.120"/>
+    <transition id="transition32" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition37" out="00:00:00.400">
+    <transition id="transition33" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1432,10 +1746,156 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
   </producer>
+  <producer id="producer64" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-10-05T01:26:53</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+  </producer>
+  <tractor id="tractor17" global_feed="1" in="00:00:00.000" out="00:00:00.760">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer63" in="00:11:44.360" out="00:11:45.120"/>
+    <track producer="producer64" in="00:11:45.160" out="00:11:45.920"/>
+    <transition id="transition34" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition35" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer65" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-10-05T01:26:53</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+    <filter id="filter16" in="00:11:45.160" out="00:11:50.360">
+      <property name="argument">Peter</property>
+      <property name="geometry">-10 970 1871 110 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#d77d5c</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer66" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-10-05T01:26:53</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+  </producer>
+  <tractor id="tractor18" global_feed="1" in="00:00:00.000" out="00:00:00.400">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer65" in="00:11:49.960" out="00:11:50.360"/>
+    <track producer="producer66" in="00:12:26.800" out="00:12:27.200"/>
+    <transition id="transition36" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition37" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer67" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-10-05T01:26:53</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+    <filter id="filter17" in="00:12:39.720" out="00:12:44.240">
+      <property name="argument">Gerry</property>
+      <property name="geometry">-9 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#aaff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
   <tractor id="tractor19" global_feed="1" in="00:00:00.000" out="00:00:00.480">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer62" in="00:12:34.880" out="00:12:35.360"/>
-    <track producer="producer63" in="00:12:39.720" out="00:12:40.200"/>
+    <track producer="producer66" in="00:12:34.880" out="00:12:35.360"/>
+    <track producer="producer67" in="00:12:39.720" out="00:12:40.200"/>
     <transition id="transition38" out="00:00:00.480">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1451,7 +1911,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer64" in="00:00:00.000" out="00:22:03.400">
+  <producer id="producer68" in="00:00:00.000" out="00:22:03.400">
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
@@ -1470,8 +1930,8 @@
   </producer>
   <tractor id="tractor20" global_feed="1" in="00:00:00.000" out="00:00:00.440">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer63" in="00:12:43.800" out="00:12:44.240"/>
-    <track producer="producer64" in="00:12:54.280" out="00:12:54.720"/>
+    <track producer="producer67" in="00:12:43.800" out="00:12:44.240"/>
+    <track producer="producer68" in="00:12:54.280" out="00:12:54.720"/>
     <transition id="transition40" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1487,43 +1947,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer65" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">1</property>
-    <property name="mlt_service">avformat</property>
-    <property name="video_delay">0</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-  </producer>
-  <tractor id="tractor21" global_feed="1" in="00:00:00.000" out="00:00:00.440">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer64" in="00:13:00.800" out="00:13:01.240"/>
-    <track producer="producer65" in="00:13:46.560" out="00:13:47.000"/>
-    <transition id="transition42" out="00:00:00.440">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition43" out="00:00:00.440">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">0</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
-  <producer id="producer66" in="00:00:00.000" out="00:22:03.400">
+  <producer id="producer69" in="00:00:00.000" out="00:22:03.400">
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
@@ -1539,7 +1963,7 @@
     <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter0" in="00:13:46.560" out="00:14:02.840">
+    <filter id="filter18" in="00:13:46.560" out="00:14:02.840">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:13.320=0;00:00:15.800=-60</property>
@@ -1547,7 +1971,7 @@
       <property name="shotcut:filter">fadeOutVolume</property>
       <property name="shotcut:animOut">63</property>
     </filter>
-    <filter id="filter1" in="00:13:47.040" out="00:14:02.840">
+    <filter id="filter19" in="00:13:47.040" out="00:14:02.840">
       <property name="start">1</property>
       <property name="level">00:00:13.320=1;00:00:15.800=0</property>
       <property name="mlt_service">brightness</property>
@@ -1557,71 +1981,18 @@
       <property name="disable">1</property>
     </filter>
   </producer>
-  <producer id="producer67" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">1</property>
-    <property name="mlt_service">avformat</property>
-    <property name="video_delay">0</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-  </producer>
-  <producer id="producer68" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:26:53</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <producer id="producer69" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:26:53</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor22" global_feed="1" in="00:00:00.000" out="00:00:00.440">
+  <tractor id="tractor21" global_feed="1" in="00:00:00.000" out="00:00:00.440">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer68" in="00:14:32.120" out="00:14:32.560"/>
-    <track producer="producer69" in="00:17:04.360" out="00:17:04.800"/>
-    <transition id="transition44" out="00:00:00.440">
+    <track producer="producer68" in="00:13:00.800" out="00:13:01.240"/>
+    <track producer="producer69" in="00:13:46.560" out="00:13:47.000"/>
+    <transition id="transition42" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition45" out="00:00:00.440">
+    <transition id="transition43" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1650,32 +2021,31 @@
     <property name="length">00:22:03.440</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:26:53</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
     <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
   </producer>
-  <tractor id="tractor23" global_feed="1" in="00:00:00.000" out="00:00:00.760">
+  <tractor id="tractor22" global_feed="1" in="00:00:00.000" out="00:00:00.440">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer69" in="00:17:06.400" out="00:17:07.160"/>
-    <track producer="producer71" in="00:17:22.880" out="00:17:23.640"/>
-    <transition id="transition46" out="00:00:00.760">
+    <track producer="producer70" in="00:14:32.120" out="00:14:32.560"/>
+    <track producer="producer71" in="00:17:04.360" out="00:17:04.800"/>
+    <transition id="transition44" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition47" out="00:00:00.760">
+    <transition id="transition45" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1700,36 +2070,18 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer73" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:26:53</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor24" global_feed="1" in="00:00:00.000" out="00:00:01.080">
+  <tractor id="tractor23" global_feed="1" in="00:00:00.000" out="00:00:00.760">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer71" in="00:17:30.440" out="00:17:31.520"/>
-    <track producer="producer73" in="00:19:25.840" out="00:19:26.920"/>
-    <transition id="transition48" out="00:00:01.080">
+    <track producer="producer71" in="00:17:06.400" out="00:17:07.160"/>
+    <track producer="producer72" in="00:17:22.880" out="00:17:23.640"/>
+    <transition id="transition46" out="00:00:00.760">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition49" out="00:00:01.080">
+    <transition id="transition47" out="00:00:00.760">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1754,36 +2106,18 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer75" in="00:00:00.000" out="00:22:03.400">
-    <property name="length">00:22:03.440</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:26:53</property>
-    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor25" global_feed="1" in="00:00:00.000" out="00:00:00.840">
+  <tractor id="tractor24" global_feed="1" in="00:00:00.000" out="00:00:01.080">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer73" in="00:20:00.400" out="00:20:01.240"/>
-    <track producer="producer75" in="00:20:01.280" out="00:20:02.120"/>
-    <transition id="transition50" out="00:00:00.840">
+    <track producer="producer72" in="00:17:30.440" out="00:17:31.520"/>
+    <track producer="producer74" in="00:19:25.840" out="00:19:26.920"/>
+    <transition id="transition48" out="00:00:01.080">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition51" out="00:00:00.840">
+    <transition id="transition49" out="00:00:01.080">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1808,35 +2142,18 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer77" in="00:00:00.000" out="00:00:31.720">
-    <property name="length">00:00:31.760</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Franz_und_Alois_0610.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:51:52</property>
-    <property name="shotcut:hash">92569a1f0fa83eb86c3e778ba0d08aee</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:caption">Franz_und_Alois_0610.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor26" global_feed="1" in="00:00:00.000" out="00:00:00.800">
+  <tractor id="tractor25" global_feed="1" in="00:00:00.000" out="00:00:00.840">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer75" in="00:21:24.920" out="00:21:25.720"/>
-    <track producer="producer77" in="00:00:00.000" out="00:00:00.800"/>
-    <transition id="transition52" out="00:00:00.800">
+    <track producer="producer74" in="00:20:00.400" out="00:20:01.240"/>
+    <track producer="producer76" in="00:20:01.280" out="00:20:02.120"/>
+    <transition id="transition50" out="00:00:00.840">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition53" out="00:00:00.800">
+    <transition id="transition51" out="00:00:00.840">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1844,6 +2161,60 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
+  <producer id="producer73" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter20" in="00:20:36.560" out="00:21:06.160">
+      <property name="argument">Thomas</property>
+      <property name="geometry">-9 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#c87661</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer75" in="00:00:00.000" out="00:22:03.400">
+    <property name="length">00:22:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/piemont_2020/0610/Uwe0610_2_1.MP4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">a69754fa817da0374f93dbda0da8bff1</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="shotcut:caption">Uwe0610_2_1.MP4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
   <producer id="producer78" in="00:00:00.000" out="00:00:31.720">
     <property name="length">00:00:31.760</property>
     <property name="eof">pause</property>
@@ -1860,37 +2231,39 @@
     <property name="shotcut:caption">Franz_und_Alois_0610.MP4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter21" out="00:00:31.720">
+      <property name="argument">Alois vs. Franz</property>
+      <property name="geometry">-9 963 1930 117 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#aaff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
-  <producer id="producer79" in="00:00:00.000" out="00:00:11.840">
-    <property name="length">00:00:11.880</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0510/Peter0510.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-04T03:29:28</property>
-    <property name="shotcut:hash">272abd5e5424f82dd95f3c0c963b4630</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Peter0510.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor27" global_feed="1" in="00:00:00.000" out="00:00:00.240">
+  <tractor id="tractor26" global_feed="1" in="00:00:00.000" out="00:00:00.800">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer77" in="00:00:31.480" out="00:00:31.720"/>
-    <track producer="producer79" in="00:00:00.000" out="00:00:00.240"/>
-    <transition id="transition54" out="00:00:00.240">
+    <track producer="producer75" in="00:21:24.920" out="00:21:25.720"/>
+    <track producer="producer78" in="00:00:00.000" out="00:00:00.800"/>
+    <transition id="transition52" out="00:00:00.800">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition55" out="00:00:00.240">
+    <transition id="transition53" out="00:00:00.800">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1915,36 +2288,18 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer81" in="00:00:00.000" out="00:00:24.520">
-    <property name="length">00:00:24.560</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0510/robert0510.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-03T22:32:22</property>
-    <property name="shotcut:hash">7c8fffe74ee05a9eb06deee1ec577e77</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">robert0510.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
-  </producer>
-  <tractor id="tractor28" global_feed="1" in="00:00:00.000" out="00:00:00.160">
+  <tractor id="tractor27" global_feed="1" in="00:00:00.000" out="00:00:00.240">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer79" in="00:00:06.240" out="00:00:06.400"/>
-    <track producer="producer81" in="00:00:18.320" out="00:00:18.480"/>
-    <transition id="transition56" out="00:00:00.160">
+    <track producer="producer78" in="00:00:31.480" out="00:00:31.720"/>
+    <track producer="producer80" in="00:00:00.000" out="00:00:00.240"/>
+    <transition id="transition54" out="00:00:00.240">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
     </transition>
-    <transition id="transition57" out="00:00:00.160">
+    <transition id="transition55" out="00:00:00.240">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -1969,6 +2324,25 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
+  <tractor id="tractor28" global_feed="1" in="00:00:00.000" out="00:00:00.160">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer80" in="00:00:06.240" out="00:00:06.400"/>
+    <track producer="producer82" in="00:00:18.320" out="00:00:18.480"/>
+    <transition id="transition56" out="00:00:00.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition57" out="00:00:00.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">0</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
   <producer id="producer83" in="00:00:00.000" out="00:00:27.960">
     <property name="length">00:00:28.000</property>
     <property name="eof">pause</property>
@@ -1985,23 +2359,26 @@
     <property name="shotcut:caption">Babs0610_Ldg.MP4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-  </producer>
-  <producer id="producer84" in="00:00:00.000" out="00:00:27.960">
-    <property name="length">00:00:28.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/video/para/piemont_2020/0610/Babs0610_Ldg.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2020-10-05T01:50:35</property>
-    <property name="shotcut:hash">f2469ba2512d4713cbb7db8b3da24332</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:caption">Babs0610_Ldg.MP4</property>
-    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter22" in="00:00:01.000" out="00:00:27.160">
+      <property name="argument">Barbara</property>
+      <property name="geometry">2 954 1918 126 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#00ff7f</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
   <producer id="producer85" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -2018,7 +2395,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter2" out="00:00:12.520">
+    <filter id="filter23" out="00:00:12.520">
       <property name="start">1</property>
       <property name="level">00:00:10.080=1;00:00:12.520=0</property>
       <property name="mlt_service">brightness</property>
@@ -2029,7 +2406,7 @@
   </producer>
   <tractor id="tractor29" global_feed="1" in="00:00:00.000" out="00:00:02.640">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer84" in="00:00:24.520" out="00:00:27.160"/>
+    <track producer="producer83" in="00:00:24.520" out="00:00:27.160"/>
     <track producer="producer85" in="00:00:00.760" out="00:00:03.400"/>
     <transition id="transition58" out="00:00:02.640">
       <property name="a_track">0</property>
@@ -2041,14 +2418,15 @@
     <transition id="transition59" out="00:00:02.640">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">0</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:01.960"/>
     <entry producer="producer32" in="00:00:00.000" out="00:00:03.200"/>
     <entry producer="producer33" in="00:00:00.000" out="00:00:02.800"/>
     <entry producer="producer34" in="00:00:00.240" out="00:00:02.960"/>
@@ -2058,7 +2436,6 @@
     <entry producer="producer38" in="00:00:00.000" out="00:00:02.960"/>
     <entry producer="producer39" in="00:00:00.000" out="00:00:03.000"/>
     <entry producer="producer40" in="00:00:00.000" out="00:00:02.960"/>
-    <entry producer="producer41" in="00:00:00.000" out="00:00:01.960"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:00.440"/>
     <entry producer="producer42" in="00:00:16.360" out="00:00:27.520"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:01.000"/>
@@ -2090,30 +2467,35 @@
     <entry producer="producer56" in="00:23:39.840" out="00:24:02.040"/>
     <entry producer="producer57" in="00:24:02.080" out="00:24:21.400"/>
     <entry producer="tractor14" in="00:00:00.000" out="00:00:00.440"/>
-    <entry producer="producer58" in="00:01:48.640" out="00:02:06.480"/>
+    <entry producer="producer58" in="00:01:48.640" out="00:01:49.360"/>
+    <entry producer="producer59" in="00:01:49.400" out="00:01:59.000"/>
+    <entry producer="producer60" in="00:01:59.040" out="00:02:06.480"/>
     <entry producer="tractor15" in="00:00:00.000" out="00:00:00.720"/>
-    <entry producer="producer59" in="00:11:30.600" out="00:11:39.160"/>
+    <entry producer="producer61" in="00:11:30.600" out="00:11:39.160"/>
     <entry producer="tractor16" in="00:00:00.000" out="00:00:00.440"/>
-    <entry producer="producer60" in="00:11:40.160" out="00:11:44.320"/>
+    <entry producer="producer62" in="00:11:40.160" out="00:11:42.640"/>
+    <entry producer="producer63" in="00:11:42.680" out="00:11:44.320"/>
     <entry producer="tractor17" in="00:00:00.000" out="00:00:00.760"/>
-    <entry producer="producer61" in="00:11:45.960" out="00:11:49.920"/>
+    <entry producer="producer65" in="00:11:45.960" out="00:11:49.920"/>
     <entry producer="tractor18" in="00:00:00.000" out="00:00:00.400"/>
-    <entry producer="producer62" in="00:12:27.240" out="00:12:34.840"/>
+    <entry producer="producer66" in="00:12:27.240" out="00:12:34.840"/>
     <entry producer="tractor19" in="00:00:00.000" out="00:00:00.480"/>
-    <entry producer="producer63" in="00:12:40.240" out="00:12:43.760"/>
+    <entry producer="producer67" in="00:12:40.240" out="00:12:43.760"/>
     <entry producer="tractor20" in="00:00:00.000" out="00:00:00.440"/>
-    <entry producer="producer64" in="00:12:54.760" out="00:13:00.760"/>
+    <entry producer="producer68" in="00:12:54.760" out="00:13:00.760"/>
     <entry producer="tractor21" in="00:00:00.000" out="00:00:00.440"/>
-    <entry producer="producer66" in="00:13:47.040" out="00:14:02.840"/>
-    <entry producer="producer67" in="00:14:02.880" out="00:14:32.080"/>
+    <entry producer="producer69" in="00:13:47.040" out="00:14:02.840"/>
+    <entry producer="producer70" in="00:14:02.880" out="00:14:32.080"/>
     <entry producer="tractor22" in="00:00:00.000" out="00:00:00.440"/>
-    <entry producer="producer70" in="00:17:04.840" out="00:17:06.360"/>
+    <entry producer="producer71" in="00:17:04.840" out="00:17:06.360"/>
     <entry producer="tractor23" in="00:00:00.000" out="00:00:00.760"/>
     <entry producer="producer72" in="00:17:23.680" out="00:17:30.400"/>
     <entry producer="tractor24" in="00:00:00.000" out="00:00:01.080"/>
     <entry producer="producer74" in="00:19:26.960" out="00:20:00.360"/>
     <entry producer="tractor25" in="00:00:00.000" out="00:00:00.840"/>
-    <entry producer="producer76" in="00:20:02.160" out="00:21:24.880"/>
+    <entry producer="producer76" in="00:20:02.160" out="00:20:36.520"/>
+    <entry producer="producer73" in="00:20:36.560" out="00:21:06.160"/>
+    <entry producer="producer75" in="00:21:06.200" out="00:21:24.880"/>
     <entry producer="tractor26" in="00:00:00.000" out="00:00:00.800"/>
     <entry producer="producer78" in="00:00:00.840" out="00:00:31.440"/>
     <entry producer="tractor27" in="00:00:00.000" out="00:00:00.240"/>
@@ -2140,16 +2522,33 @@
     <property name="shotcut:hash">829e289ac4e6a31116e7a7f72739a4a4</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Money For Nothing; drum cover by Sina.mp3</property>
-    <filter id="filter3" in="00:00:17.360" out="00:00:33.440">
+    <filter id="filter24" in="00:00:17.360" out="00:00:33.440">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">00:00:00.000=-60;00:00:11.880=0</property>
+      <property name="level">00:00:00.000=-60;00:00:02.480=0</property>
       <property name="mlt_service">volume</property>
       <property name="shotcut:filter">fadeInVolume</property>
-      <property name="shotcut:animIn">00:00:11.920</property>
+      <property name="shotcut:animIn">00:00:02.520</property>
     </filter>
   </producer>
   <producer id="producer87" in="00:00:00.000" out="00:04:19.400">
+    <property name="length">00:04:19.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/uwe/Music/4K YouTube to MP3/Money For Nothing; drum cover by Sina.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-04-07T15:59:57</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">829e289ac4e6a31116e7a7f72739a4a4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Money For Nothing; drum cover by Sina.mp3</property>
+  </producer>
+  <producer id="producer77" in="00:00:00.000" out="00:04:19.400">
     <property name="length">00:04:19.440</property>
     <property name="eof">pause</property>
     <property name="resource">C:/Users/uwe/Music/4K YouTube to MP3/Money For Nothing; drum cover by Sina.mp3</property>
@@ -2182,7 +2581,7 @@
     <property name="shotcut:hash">829e289ac4e6a31116e7a7f72739a4a4</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Money For Nothing; drum cover by Sina.mp3</property>
-    <filter id="filter4" in="00:00:41.080" out="00:04:31.000">
+    <filter id="filter25" in="00:00:41.080" out="00:04:31.000">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:03:48.960=0;00:03:49.920=-60</property>
@@ -2207,7 +2606,7 @@
     <property name="shotcut:hash">3b41c2d15d33f0b0332f7626788150de</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">Crosby, Stills, Nash &amp; Young - Woodstock.mp3</property>
-    <filter id="filter5" out="00:03:56.280">
+    <filter id="filter26" out="00:03:56.280">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:01.440=0</property>
@@ -2215,7 +2614,7 @@
       <property name="shotcut:filter">fadeInVolume</property>
       <property name="shotcut:animIn">00:00:01.480</property>
     </filter>
-    <filter id="filter6" out="00:03:56.280">
+    <filter id="filter27" out="00:03:56.280">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:03:55.320=0;00:03:56.280=-60</property>
@@ -2227,21 +2626,29 @@
   <playlist id="playlist1">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
-    <blank length="00:00:05.760"/>
+    <blank length="00:00:08.280"/>
     <entry producer="producer86" in="00:00:17.360" out="00:00:33.440"/>
-    <entry producer="producer87" in="00:00:33.480" out="00:00:41.040"/>
+    <entry producer="producer87" in="00:00:33.480" out="00:00:38.520"/>
+    <entry producer="producer77" in="00:00:38.560" out="00:00:41.040"/>
     <entry producer="producer88" in="00:00:41.080" out="00:04:19.400"/>
-    <blank length="00:00:30.200"/>
+    <blank length="00:00:27.680"/>
     <entry producer="producer89" in="00:00:00.000" out="00:03:56.280"/>
+  </playlist>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:00.040"/>
   </playlist>
   <tractor id="tractor30" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:08:34.320">
     <property name="shotcut">1</property>
-    <property name="shotcut:scaleFactor">0.124571</property>
+    <property name="shotcut:scaleFactor">0.532343</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:trackHeight">30</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="audio"/>
     <transition id="transition60">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -2262,6 +2669,20 @@
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
+    </transition>
+    <transition id="transition63">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition64">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
     </transition>
   </tractor>
 </mlt>
