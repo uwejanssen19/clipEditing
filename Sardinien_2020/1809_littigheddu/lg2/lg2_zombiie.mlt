@@ -65,6 +65,39 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">190d51b30e54f38f532714e004569afe</property>
   </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#FF550000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">#FF550000</property>
+    <property name="shotcut:detail">#FF550000</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:03.960">
+      <property name="argument">Flug in Littigheddu 18.9.2020</property>
+      <property name="geometry">0 810 1920 270 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">80</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">top</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+    </filter>
+  </producer>
   <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
@@ -81,34 +114,17 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer4" in="00:00:00.000" out="00:08:59.960">
-    <property name="length">00:09:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">T:/music/audio_cd/schumann/ - Titel 05.mp3</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="creation_time">2020-10-22T11:18:00</property>
-    <property name="shotcut:hash">aba065e6573f039b71a2ef2b8a774af1</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption"> - Titel 05.mp3</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-  </producer>
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
     <entry producer="producer0" in="00:00:00.000" out="00:25:00.480"/>
     <entry producer="producer1" in="00:00:00.000" out="00:25:00.440"/>
     <entry producer="producer2" in="00:00:00.000" out="00:06:45.200"/>
     <entry producer="producer3" in="00:00:00.000" out="00:25:00.440"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:03.960"/>
     <entry producer="producer5" in="00:00:00.000" out="00:00:03.960"/>
-    <entry producer="producer4" in="00:00:00.000" out="00:08:59.960"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:15:01.360">
-    <property name="length">00:15:01.400</property>
+  <producer id="black" in="00:00:00.000" out="00:15:06.680">
+    <property name="length">00:15:06.720</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -117,7 +133,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:15:01.360"/>
+    <entry producer="black" in="00:00:00.000" out="00:15:06.680"/>
   </playlist>
   <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -134,7 +150,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter1" out="00:00:15.760">
+    <filter id="filter1" out="00:00:21.080">
       <property name="argument">Luft Begegnungen in Littigheddu 18.9.2020
 Im Bild:
 Gilda, Ludka, Gerti, Claudia, Barbara, Manfred, Lutz
@@ -157,7 +173,7 @@ Gerhard, Horst, Helmut am Start und Uwe (Kamera)</property>
       <property name="shotcut:pointSize">60</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="disable">1</property>
+      <property name="disable">0</property>
     </filter>
   </producer>
   <producer id="producer7" in="00:00:00.000" out="00:25:00.480">
@@ -212,9 +228,9 @@ Gerhard, Horst, Helmut am Start und Uwe (Kamera)</property>
     <transition id="transition1" out="00:00:00.400">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer8" in="00:00:00.000" out="00:25:00.480">
@@ -998,7 +1014,7 @@ sucht.</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer26" in="00:00:00.000" out="00:25:00.480">
+  <producer id="producer25" in="00:00:00.000" out="00:25:00.480">
     <property name="length">00:25:00.520</property>
     <property name="eof">pause</property>
     <property name="resource">T:/video/para/sardinien_2020/18092020_littigheddu_long_1_20h/VIRB0111.MP4</property>
@@ -1018,7 +1034,7 @@ sucht.</property>
   <tractor id="tractor18" global_feed="1" in="00:00:00.000" out="00:00:00.600">
     <property name="shotcut:transition">lumaMix</property>
     <track producer="producer24" in="00:14:00.920" out="00:14:01.520"/>
-    <track producer="producer26" in="00:14:01.560" out="00:14:02.160"/>
+    <track producer="producer25" in="00:14:01.560" out="00:14:02.160"/>
     <transition id="transition36" out="00:00:00.600">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1034,6 +1050,23 @@ sucht.</property>
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
+  <producer id="producer26" in="00:00:00.000" out="00:25:00.480">
+    <property name="length">00:25:00.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">T:/video/para/sardinien_2020/18092020_littigheddu_long_1_20h/VIRB0111.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-09-18T16:26:07</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">d16577f18146e087d60608d410ef7cec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VIRB0111.MP4</property>
+  </producer>
   <producer id="producer27" in="00:00:00.000" out="00:25:00.480">
     <property name="length">00:25:00.520</property>
     <property name="eof">pause</property>
@@ -3136,7 +3169,7 @@ sucht.</property>
     <property name="aspect_ratio">1</property>
     <property name="creation_time">2020-09-18T17:41:10</property>
     <property name="shotcut:hash">8c177074600d8df5b3ca0e3a96f98639</property>
-    <property name="ignore_points">0</property>
+    <property name="ignore_points">1</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">VIRB0111-4.MP4</property>
@@ -3163,7 +3196,7 @@ sucht.</property>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="producer6" in="00:00:00.000" out="00:00:15.320"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:20.640"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:00.400"/>
     <entry producer="producer7" in="00:00:01.800" out="00:00:16.280"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.440"/>
@@ -3311,84 +3344,14 @@ sucht.</property>
     <entry producer="tractor72" in="00:00:00.000" out="00:00:00.480"/>
     <entry producer="producer80" in="00:06:27.520" out="00:06:45.200"/>
   </playlist>
-  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgb24a</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="ignore_points">0</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-    <filter id="filter0" out="00:00:14.840">
-      <property name="argument">Luftbegegnungen in Littigheddu 18.9.2020
-Im Bild:
-Gilda, Ludka, Gerti, Claudia, Barbara, Manfred, Lutz,
-Gerhard, Horst, Helmut am Start - Jochen habe ich nicht entdeckt.
-
-Kamera: Uwe </property>
-      <property name="geometry">10 0 1900 1080 1</property>
-      <property name="family">Verdana</property>
-      <property name="size">180</property>
-      <property name="weight">500</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#aa000000</property>
-      <property name="pad">0</property>
-      <property name="halign">center</property>
-      <property name="valign">middle</property>
-      <property name="outline">0</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">0</property>
-      <property name="shotcut:pointSize">140</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="disable">0</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-    </filter>
-    <filter id="filter22" out="00:00:14.840">
-      <property name="start">1</property>
-      <property name="level">1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
-      <property name="shotcut:animIn">00:00:01.040</property>
-      <property name="disable">1</property>
-    </filter>
-    <filter id="filter23" out="00:00:14.840">
-      <property name="start">1</property>
-      <property name="level">1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeOutBrightness</property>
-      <property name="alpha">00:00:13.840=1;00:00:14.840=0</property>
-      <property name="shotcut:animOut">00:00:01.040</property>
-    </filter>
-  </producer>
-  <playlist id="playlist1">
-    <property name="shotcut:video">1</property>
-    <property name="shotcut:name">V2</property>
-    <entry producer="producer25" in="00:00:00.000" out="00:00:14.840"/>
-  </playlist>
-  <playlist id="playlist2">
-    <property name="shotcut:audio">1</property>
-    <property name="shotcut:name">A1</property>
-    <blank length="00:00:00.040"/>
-  </playlist>
-  <tractor id="tractor73" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:15:01.360">
+  <tractor id="tractor73" title="Shotcut version 20.09.13" global_feed="1" in="00:00:00.000" out="00:15:06.680">
     <property name="shotcut">1</property>
-    <property name="shotcut:scaleFactor">0.0740182</property>
+    <property name="shotcut:scaleFactor">0.0747312</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:trackHeight">50</property>
+    <property name="shotcut:trackHeight">30</property>
     <track producer="background"/>
     <track producer="playlist0" hide="audio"/>
-    <track producer="playlist1" hide="audio"/>
-    <track producer="playlist2" hide="video"/>
     <transition id="transition146">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -3402,27 +3365,6 @@ Kamera: Uwe </property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="disable">1</property>
-    </transition>
-    <transition id="transition148">
-      <property name="a_track">0</property>
-      <property name="b_track">2</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
-    </transition>
-    <transition id="transition149">
-      <property name="a_track">1</property>
-      <property name="b_track">2</property>
-      <property name="version">0.9</property>
-      <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="disable">0</property>
-    </transition>
-    <transition id="transition150">
-      <property name="a_track">0</property>
-      <property name="b_track">3</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
     </transition>
   </tractor>
 </mlt>
